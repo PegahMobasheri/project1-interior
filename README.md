@@ -1,22 +1,21 @@
 # 🌐  project1-interior
 
 This is my very first project, where I focused on creating an **advanced navigation menu and mega menu** using **HTML** and **CSS**.  
-It includes sections like **Shop List**, **About**, and more.  
-
+ 
 ---
 
 ## 🚀 Live Demo  
-👉 [View Live Demo](https://username.github.io/repository-name/)  
+👉 [View Live Demo](https://pegahmobasheri.github.io/project1-interior/)  
 
 ---
 
 ## 📸 Screenshots  
 
 ### 🏠 Homepage  
-![Homepage Screenshot](./images/screenshot1.png)  
+![Homepage Screenshot](./images/Screenshot 2025-09-05 225255.png)  
 
 ### 📑 Mega Menu Example  
-![Mega Menu Screenshot](./images/screenshot2.png)  
+![Mega Menu Screenshot](./images/Screenshot 2025-09-05 225328.png)  
 
 ---
 
