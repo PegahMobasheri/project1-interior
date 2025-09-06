@@ -1,0 +1,932 @@
+.top-head {
+    width: 100%;
+    height: 120px;
+
+    >.row {
+        >div {
+            width: 100%;
+
+            &:first-of-type {
+                /* header 1  */
+                height: 40px;
+                background-color: rgb(25, 28, 33);
+                display: flex;
+
+                >span {
+                    font-size: 12px;
+                    color: white;
+                    margin: auto;
+                    /* border: 2px solid white; */
+                }
+            }
+
+            &:last-of-type {
+                /* headear 2  */
+                height: 80px;
+                background-color: rgb(255, 255, 255);
+                /* border: 2px solid yellowgreen; */
+                padding: 0 50px;
+                display: flex;
+
+                >* {
+                    /* border: 2px solid red; */
+                    height: 100%;
+                }
+
+                >figure {
+                    width: 20%;
+                    display: flex;
+
+                    >img {
+
+                        width: 150px;
+                        height: fit-content;
+                        margin: 25px 50px 25px 0;
+                        /* border: 2px solid yellow; */
+
+                    }
+                }
+
+                >nav {
+                    &:first-of-type {
+                        /* menu */
+                        width: 50%;
+
+                        >ul {
+                            with: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+
+
+                            >li {
+                                height: 100%;
+                                /* border: 2px solid yellow; */
+                                min-width: 50px;
+                                padding: 25px 0;
+                                position: relative;
+
+                                >a {
+
+                                    /* background-color: yellowgreen; */
+                                    color: black;
+                                    padding: 10px 15px;
+
+
+                                    text-transform: capitalize;
+                                    position: relative;
+
+                                    &::after {
+                                        content: "";
+                                        width: 40px;
+                                        height: 3px;
+                                        background-color: black;
+                                        top: 62px;
+                                        left: 15px;
+                                        position: absolute;
+                                        opacity: 0;
+                                        transition: 0.4s;
+
+                                    }
+
+                                    &:hover {
+                                        &::after {
+                                            opacity: 100;
+                                        }
+
+                                    }
+
+
+
+                                }
+
+                                &:hover {
+                                    >ul {
+                                        opacity: 1;
+                                        pointer-events: all;
+                                    }
+
+                                }
+
+                                >.mega {
+                                    /* mega menu home  */
+                                    background-color: white;
+                                    /* border: 3px solid blue; */
+                                    height: 200px;
+                                    width: 200px;
+                                    position: absolute;
+                                    top: 80px;
+                                    left: 0;
+                                    opacity: 0;
+                                    transition: 0.4s;
+                                    pointer-events: none;
+                                    z-index: 3;
+
+
+                                    >li {
+                                        display: flex;
+                                        margin: 15px 20px 10px 10px;
+                                        line-height: 30px;
+
+
+                                        >a {
+                                            text-transform: capitalize;
+                                        }
+                                    }
+                                }
+
+                                >.drop {
+                                    /* mega menu shop  */
+                                    background-color: white;
+                                    position: fixed;
+                                    top: 120px;
+                                    left: 0;
+                                    width: 100vw;
+                                    height: 450px;
+                                    z-index: 9999;
+                                    opacity: 0;
+                                    transition: 0.4s;
+                                    pointer-events: none;
+
+                                    >li {
+                                        display: flex;
+
+                                        >* {
+                                            /* border: 2px solid yellow; */
+                                            height: 500px;
+
+
+
+                                        }
+
+
+                                        >nav {
+                                            width: 40%;
+                                            margin-left: 30px;
+                                            margin-top: 20px;
+
+                                            >p {
+                                                text-transform: uppercase;
+                                                color: rgb(102, 102, 102);
+                                                font-size: 18px;
+
+
+                                            }
+
+                                            >ul {
+                                                >li {
+                                                    >a {
+                                                        text-transform: capitalize;
+                                                        line-height: 20p0x;
+                                                        color: rgb(102, 102, 102);
+                                                        font-size: 70px;
+                                                        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+                                                    }
+                                                }
+                                            }
+
+                                        }
+
+                                        >figure {
+
+                                            width: 20%;
+                                            margin-right: 30px;
+
+                                            >a {
+
+                                                display: flex;
+
+                                                >img {
+
+                                                    width: 300px;
+                                                    height: 350px;
+                                                    padding: 20px 10px;
+
+
+                                                }
+                                            }
+
+                                            >figcaption {
+                                                /* border: 2px solid wheat; */
+                                                width: 100%;
+                                                height: 40px;
+                                                display: flex;
+                                                align-items: center;
+                                                justify-content: center;
+
+
+
+
+                                                >a {
+                                                    /* background-color: aquamarine; */
+                                                    font-size: 30px;
+                                                    text-transform: capitalize;
+
+
+
+                                                }
+                                            }
+
+
+                                        }
+                                    }
+
+
+                                }
+
+
+
+
+                            }
+
+                        }
+
+
+                    }
+
+                    &:last-of-type {
+                        /* bag shop  */
+                        width: 10%;
+
+                        >ul {
+                            width: 100%;
+                            height: 100%;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+
+                            >li {
+                                width: 40px;
+                                height: 50%;
+                                /* border: 2px solid blue; */
+                                padding: 7px;
+                                gap: 12px;
+
+
+
+                                >a {
+                                    cursor: pointer;
+                                    /* background-color: yellow; */
+
+
+                                }
+                            }
+                        }
+
+
+                    }
+
+                }
+
+                >form {
+                    /* search box  */
+                    width: 25%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    position: relative;
+
+                    >input[type=text] {
+                        width: 60%;
+                        height: 50%;
+                        background-color: rgb(244, 244, 244);
+                        border: none;
+                        outline: none;
+                        padding-left: 45px;
+
+                        &::placeholder {
+                            font-size: 16px;
+                            text-transform: capitalize;
+                            color: black;
+
+
+                        }
+
+                    }
+
+                    >input[type=submit] {
+                        display: none;
+                    }
+
+                    >label {
+                        display: flex;
+                        width: 20px;
+                        height: 20px;
+                        /* border: 2px solid blue; */
+                        position: absolute;
+                        top: 27px;
+                        left: 80px;
+                        cursor: pointer;
+                    }
+                }
+
+
+
+
+
+
+
+
+            }
+
+
+
+
+        }
+    }
+
+}
+
+/* end head top  */
+.head_bottom {
+    background-image: url(images/intro\ girl.jpg);
+    width: auto;
+    height: 100vh;
+    background-size: cover;
+    position: relative;
+
+
+
+    &::before {
+        content: "";
+        background-color: rgba(0, 0, 0, 0.27);
+        width: 100%;
+        height: 100%;
+        display: flex;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    >.row {
+        /* div  */
+        position: relative;
+        z-index: 2;
+        width: 800px;
+        height: 700px;
+        /* border: 2px solid yellow; */
+        margin: 0 auto;
+        padding-top: 130px;
+        padding-left: 90px;
+
+        >* {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            color: white;
+        }
+
+        >h3 {
+            font-size: 18px;
+            text-transform: uppercase;
+            margin: auto;
+
+
+        }
+
+        >h1 {
+
+            text-transform: capitalize;
+            font-size: 60px;
+
+            margin-top: 20px;
+            margin-bottom: 20px;
+
+
+
+        }
+
+        >div {
+            width: 300px;
+            height: 70px;
+            background-color: white;
+
+            >a {
+                color: black;
+                text-transform: uppercase;
+                font-size: 20px;
+                display: flex;
+                justify-content: center;
+                padding-top: 20px;
+
+
+            }
+        }
+
+    }
+
+}
+
+/* end head bottom  */
+.intro {
+    width: 70%;
+
+    margin: 70px auto 100px;
+    /* border: 2px solid red; */
+
+
+    >.row {
+        display: flex;
+
+        /* intro twxt  */
+        >.new {
+            width: 50%;
+            background-color: white;
+            /* border: 2px dashed navy; */
+            color: rgb(50, 50, 50);
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            text-transform: capitalize;
+            padding-top: 50px;
+
+
+            >h2 {
+                margin-bottom: 30px;
+                font-size: 55px;
+
+
+            }
+
+            >p {
+                font-size: 18px;
+
+
+            }
+
+        }
+
+        >.caption {
+            /* intro img  */
+            width: 50%;
+            background-color: white;
+            padding-left: 30px;
+
+            >figure {
+                padding: 100px 210px;
+
+                >img {
+                    /* border: 2px solid violet; */
+                    width: 140px;
+                    height: 140px;
+
+
+                }
+            }
+
+
+
+
+
+            >.row {
+                color: rgb(50, 50, 50);
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                text-transform: uppercase;
+                /* border: 2px solid black; */
+                justify-content: space-between;
+                display: flex;
+
+
+
+            }
+        }
+
+    }
+
+}
+
+/* end intro  */
+.product {
+    width: 80%;
+    height: 950px;
+
+    margin: 70px auto;
+    /* border: 2px solid red; */
+    min-height: 200px;
+
+    >.row {
+        width: 100%;
+        min-height: 200px;
+        display: flex;
+
+        >.chair {
+            /* chair  */
+            width: 50%;
+
+            min-height: 200px;
+
+            >figure {
+                >img {
+                    object-fit: cover;
+                    width: 600px;
+                    height: fit-content;
+                    padding-right: 10px;
+                }
+            }
+
+            >div {
+
+                >p {
+
+                    /* border: 2px solid yellow; */
+                    font-size: 18px;
+                    text-transform: lowercase;
+                    width: 400px;
+                    line-height: 30px;
+                    margin-top: 50px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+            }
+        }
+
+        >.sofa {
+            /* sofa  */
+            width: 50%;
+
+
+
+            >figure {
+                padding-left: 10px;
+                position: relative;
+
+                >img {
+                    object-fit: cover;
+                    width: 600px;
+                    position: absolute;
+                    right: 0;
+                    bottom: -860px;
+                    display: flex;
+
+                    height: fit-content;
+
+                }
+
+
+                >div {
+
+                    width: 600px;
+
+                    height: 80px;
+                    background-color: black;
+                    position: absolute;
+                    right: 0;
+                    bottom: -930px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+
+                    >a {
+                        color: white;
+                        text-transform: uppercase;
+                        font-size: 20px;
+
+                    }
+
+                }
+
+
+            }
+
+        }
+    }
+}
+
+/* end product  */
+/* start shop list  */
+.shop-list {
+    >.row {
+        width: 500px;
+        height: 150px;
+        margin-top: 120px;
+        margin-left: 150px;
+
+        /* border: 2px solid red; */
+
+        >h5 {
+            font-size: 18px;
+            color: rgb(70, 70, 70);
+            text-transform: uppercase;
+
+        }
+
+        >h3 {
+            font-size: 50px;
+            padding-top: 25px;
+            text-transform: capitalize;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+    }
+
+    >nav {
+        width: 80%;
+        margin: 20px auto;
+        /* border: 2px solid red; */
+
+
+        >.row {
+            /* ul  */
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+
+            >li {
+                padding-bottom: 50px;
+
+                >figure {
+                    overflow: hidden;
+
+
+                    >a {
+
+
+
+                        >img {
+                            object-fit: cover;
+                            width: 380px;
+                            height: fit-content;
+                            transition: 0.7s;
+
+                            &:hover {
+                                scale: 1.2;
+                            }
+
+                        }
+                    }
+
+                }
+
+                >a {
+                    font-size: 25px;
+                    text-transform: capitalize;
+                    justify-content: center;
+                    display: flex;
+                    padding-top: 20px;
+                    padding-bottom: 10px;
+
+
+                }
+
+                >figcaption {
+
+                    justify-content: center;
+                    display: flex;
+
+                }
+            }
+        }
+    }
+
+    >.linkp {
+        background-color: rgb(25, 28, 33);
+        width: 250px;
+        height: 60px;
+        margin: 0 auto;
+
+        >a {
+            font-size: 17px;
+            color: white;
+            text-transform: uppercase;
+            width: 250px;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+    }
+}
+
+/* end shop list  */
+.client {
+    background-image: url(images/testimonial-large2.jpg);
+    width: 100%;
+    height: 80vh;
+    background-size: cover;
+    margin: 150px 0;
+
+    >.row {
+        width: 750px;
+        height: 80vh;
+        background-color: white;
+        /* border: 2px solid red; */
+        margin-left: 110px;
+        padding: 70px 100px;
+
+        >* {
+            width: 500px;
+
+        }
+
+
+
+        >p {
+            /* border: 3px solid orangered; */
+            text-transform: uppercase;
+            color: rgb(55, 55, 55);
+        }
+
+        >blockquote {
+
+            height: 250px;
+            /* border: 3px solid yellowgreen; */
+            margin-top: 20px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            color: rgb(55, 55, 55);
+            font-size: 35px;
+            line-height: 50px;
+        }
+
+        >ul {
+
+            height: 70px;
+            background-color: rgb(25, 28, 33);
+
+            >li {
+                padding-top: 17px;
+
+                >a {
+                    display: flex;
+                    text-transform: uppercase;
+                    font-size: 20px;
+                    color: white;
+                    justify-content: center;
+                    align-items: center;
+
+                    >i {
+                        width: 30px;
+                        height: 30px;
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+/* end client  */
+.about {
+    width: 100%;
+    padding: 0 10%;
+    margin-bottom: 150px;
+
+
+    >.row {
+        display: flex;
+
+        >figure {
+
+            overflow: hidden;
+
+            >img {
+                width: 550px;
+                height: fit-content;
+                transition: 0.5s;
+
+                &:hover {
+                    scale: 1.1;
+                }
+
+            }
+        }
+
+        >div {
+            /* border: 3px solid rgb(70, 29, 87); */
+            width: 600px;
+            margin-left: 100px;
+
+            >* {
+                width: 500px;
+                margin: 60px auto;
+                color: rgb(55, 55, 55);
+            }
+
+            >h3 {
+                /* border: 3px solid blue; */
+                font-size: 40px;
+                position: relative;
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+                &:hover {
+                    &::after {
+                        width: 300px;
+                    }
+                }
+
+                &::after {
+                    content: "";
+                    width: 150px;
+                    height: 2px;
+                    background-color: rgb(90, 90, 90);
+                    position: absolute;
+                    display: flex;
+                    bottom: -20px;
+                    left: 5px;
+                    transition: 0.5s;
+                }
+
+            }
+
+            >h4 {
+                /* border: 3px solid rgb(0, 255, 110); */
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-size: 20px;
+                line-height: 35px;
+
+            }
+
+            >ul {
+                /* border: 3px solid rgb(176, 191, 66); */
+
+                >li {
+                    display: flex;
+                    font-size: 20px;
+                    line-height: 45px;
+                    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+                    >i {
+                        width: 25px;
+                        height: 25px;
+                        margin: 5px 10px 0 10px;
+                    }
+                }
+
+            }
+
+            >div {
+                height: 70px;
+                border: 1px solid rgb(90, 90, 90);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                >a {
+                    font-size: 20px;
+                    text-transform: uppercase;
+
+
+                }
+            }
+        }
+    }
+}
+
+/* end about  */
+.dev {
+    background-color: rgb(43, 43, 43);
+    width: 100%;
+    height: 350px;
+    padding: 30px 0;
+
+    >div {
+        width: 800px;
+        height: 300px;
+        margin-left: 100px;
+        /* border: 3px solid palevioletred; */
+        display: flex;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        color: rgb(230, 230, 230);
+        justify-content: space-evenly;
+
+        >figure {
+
+            >img {
+                width: 250px;
+                height: fit-content;
+                border-radius: 27% 73% 64% 36% / 32% 34% 66% 68%;
+            }
+
+            >figcaption {
+                font-size: 20px;
+
+                text-transform: capitalize;
+                margin-left: 30px;
+                margin-top: 5px;
+            }
+        }
+
+        >nav {
+            width: 400px;
+            height: 250px;
+            /* border: 2px solid white; */
+            margin-top: 50px;
+
+            >ul {
+                >li {
+                    margin: 20px 0;
+
+
+                    >a {
+                        display: flex;
+                        text-transform: capitalize;
+                        font-size: 20px;
+
+                        >i {
+                            width: 25px;
+                            height: 25px;
+                            margin-right: 10px;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}
+/* end dev  */
