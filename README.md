@@ -8,11 +8,8 @@ This is my very first project, where I focused on creating an **advanced navigat
 👉 [View Live Demo](https://pegahmobasheri.github.io/project1-interior/)  
 
 ---
-
-## 📸 Screenshots  
-
 ### 🏠 Homepage  
-![Homepage Screenshot](https://github.com/PegahMobasheri/project1-interior/commit/9e3983fb4aaf71b1c341c8e3121202de51bf17d9#diff-2d908661f227cc981ae53ed285ff17a6aa68bf1594706dd5fb83cd35ff8012ad.PNG)  
+![Homepage](https://github.com/user-attachments/assets/1a41a504-69f1-4235-82c9-e3389866ed37.png)  
 
 ### 📑 Mega Menu Example  
 ![Mega Menu Screenshot](https://github.com/PegahMobasheri/project1-interior/commit/9e3983fb4aaf71b1c341c8e3121202de51bf17d9#diff-3ed4c575f0d4cd4d7383610168d2a0304141ff21e4503e9b07a303f64b2d4c7f)  
