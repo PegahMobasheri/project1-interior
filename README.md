@@ -12,10 +12,10 @@ This is my very first project, where I focused on creating an **advanced navigat
 ## 📸 Screenshots  
 
 ### 🏠 Homepage  
-![Homepage Screenshot](./asset/images/Screenshot 2025-09-05 225255.png)  
+![Homepage Screenshot](./asset/images/Screenshot 2025-09-05225255.png)  
 
 ### 📑 Mega Menu Example  
-![Mega Menu Screenshot](./asset/images/Screenshot 2025-09-05 225328.png)  
+![Mega Menu Screenshot](./asset/images/Screenshot 2025-09-05225328.png)  
 
 ---
 
