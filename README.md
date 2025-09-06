@@ -12,7 +12,7 @@ This is my very first project, where I focused on creating an **advanced navigat
 ## 📸 Screenshots  
 
 ### 🏠 Homepage  
-![Homepage Screenshot](./asset/images/Screenshot 2025-09-05225255.png)  
+![Homepage Screenshot](https://github.com/PegahMobasheri/project1-interior/commit/9e3983fb4aaf71b1c341c8e3121202de51bf17d9#diff-2d908661f227cc981ae53ed285ff17a6aa68bf1594706dd5fb83cd35ff8012ad.png)  
 
 ### 📑 Mega Menu Example  
 ![Mega Menu Screenshot](./asset/images/Screenshot 2025-09-05225328.png)  
