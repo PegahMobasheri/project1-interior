@@ -12,10 +12,10 @@ This is my very first project, where I focused on creating an **advanced navigat
 ## 📸 Screenshots  
 
 ### 🏠 Homepage  
-![Homepage Screenshot](./images/Screenshot 2025-09-05 225255.png)  
+![Homepage Screenshot](./asset/images/Screenshot 2025-09-05 225255.png)  
 
 ### 📑 Mega Menu Example  
-![Mega Menu Screenshot](./images/Screenshot 2025-09-05 225328.png)  
+![Mega Menu Screenshot](./asset/images/Screenshot 2025-09-05 225328.png)  
 
 ---
 
@@ -26,3 +26,8 @@ This is my very first project, where I focused on creating an **advanced navigat
 - Built only with **HTML** and **CSS**  
 
 ---
+- How to reach me : with my [instagram](https://www.instagram.com/pegahmobasherii) and [linkedin](https://www.linkedin.com/in/pegah-mobasheri)
+
+
+
+
