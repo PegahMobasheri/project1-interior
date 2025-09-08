@@ -8,7 +8,7 @@ This is my first project, where I focused on creating an **advanced navigation m
 👉 [View Live Demo](https://pegahmobasheri.github.io/project1-interior/)  
 
 ---
-### 🏠 view website  
+### 🏠 website view 
 ![Homepage](https://github.com/user-attachments/assets/23ca173e-cd82-4609-9d8e-943d718fcc59)  
 ![Mega Menu](https://github.com/user-attachments/assets/c60346d5-67b3-4f40-8559-c642312322b5)  
 ![intro](https://github.com/user-attachments/assets/d86a938c-7d3b-4ab8-b8e8-a817d6de5218)
@@ -17,7 +17,7 @@ This is my first project, where I focused on creating an **advanced navigation m
 ![shoplist2](https://github.com/user-attachments/assets/864607a0-1242-4c92-bc1c-e7f920aff51e)
 ![client](https://github.com/user-attachments/assets/800e2553-e572-439c-9219-6e0ef21c8995)
 ![about](https://github.com/user-attachments/assets/656d162d-8c91-47c2-b130-21fced2b0024)
-![footer]()
+![footer](https://github.com/user-attachments/assets/0306e68a-7ff9-432d-a2ca-04870a298bdb)
 ---
 
 ## ✨ Features  
