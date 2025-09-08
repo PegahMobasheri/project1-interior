@@ -14,7 +14,7 @@ This is my first project, where I focused on creating an **advanced navigation m
 ![intro](https://github.com/user-attachments/assets/d86a938c-7d3b-4ab8-b8e8-a817d6de5218)
 ![product](https://github.com/user-attachments/assets/be41923b-628e-4d95-b739-f951e6968d19)
 ![shoplist1](https://github.com/user-attachments/assets/bab5c416-f941-4588-ba04-4fa42673acaf)
-![shoplist2]()
+![shoplist2](https://github.com/user-attachments/assets/864607a0-1242-4c92-bc1c-e7f920aff51e)
 ![client]()
 ![about]()
 ![footer]()
