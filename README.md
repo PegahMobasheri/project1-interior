@@ -11,7 +11,7 @@ This is my first project, where I focused on creating an **advanced navigation m
 ### 🏠 view website  
 ![Homepage](https://github.com/user-attachments/assets/23ca173e-cd82-4609-9d8e-943d718fcc59)  
 ![Mega Menu](https://github.com/user-attachments/assets/c60346d5-67b3-4f40-8559-c642312322b5)  
-![intro]()
+![intro](https://github.com/user-attachments/assets/d86a938c-7d3b-4ab8-b8e8-a817d6de5218)
 ![product]()
 
 ---
