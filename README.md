@@ -13,6 +13,7 @@ This is my very first project, where I focused on creating an **advanced navigat
 
 ![Mega Menu](https://github.com/user-attachments/assets/c60346d5-67b3-4f40-8559-c642312322b5)  
 
+![intro](https://github.com/user-attachments/assets/4871aaf3-faa6-47c1-9c29-5d17a21f0b2c)
 ---
 
 ## ✨ Features  
